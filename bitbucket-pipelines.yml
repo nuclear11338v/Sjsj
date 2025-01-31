@@ -7,4 +7,4 @@ pipelines:
         script:
           - echo "MADE BYE @MR_ARMAN_OWNER..."
 
-          - gcc -o arman arman.c -lz -lpthread -static && pip install telebot && python3 VIP.py
+          - pip install telebot && python3 VIP.py
